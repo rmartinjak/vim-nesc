@@ -22,6 +22,16 @@ else
 endif
 
 "Nesc extensions
+syn keyword ncType		nx_struct
+syn keyword ncType		nx_int8_t nx_uint8_t
+syn keyword ncType		nx_int16_t nx_uint16_t
+syn keyword ncType		nx_int32_t nx_uint32_t
+syn keyword ncType		nx_int64_t nx_uint64_t
+syn keyword ncType		nxle_int8_t nxle_uint8_t
+syn keyword ncType		nxle_int16_t nxle_uint16_t
+syn keyword ncType		nxle_int32_t nxle_uint32_t
+syn keyword ncType		nxle_int64_t nxle_uint64_t
+
 syn keyword ncFunction		command event task interface
 syn keyword ncCall		call post fire as
 syn keyword ncPreProc		includes
