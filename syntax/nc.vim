@@ -31,6 +31,7 @@ syn keyword ncType		nxle_int8_t nxle_uint8_t
 syn keyword ncType		nxle_int16_t nxle_uint16_t
 syn keyword ncType		nxle_int32_t nxle_uint32_t
 syn keyword ncType		nxle_int64_t nxle_uint64_t
+syn keyword ncType		error_t message_t
 
 syn keyword ncFunction		command event task interface
 syn keyword ncCall		call post fire as signal
