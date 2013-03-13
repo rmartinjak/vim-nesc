@@ -37,7 +37,7 @@ syn keyword ncFunction		command event task interface
 syn keyword ncCall		call post fire as signal
 syn keyword ncPreProc		includes
 syn keyword ncInterface		module implementation configuration
-syn keyword ncWiring		provides uses components
+syn keyword ncWiring		provides uses components new
 syn keyword ncConstant		SUCCESS FAIL
 syn keyword ncBoolean		TRUE FALSE
 
